@@ -1,6 +1,6 @@
-#REGRESIÓN LINEAL EN CLASIFICACIÓN DE CÉLULAS CANCERÍGENAS
+# REGRESIÓN LINEAL EN CLASIFICACIÓN DE CÉLULAS CANCERÍGENAS
 
-##1.	Introducción.
+## 1.	Introducción.
 
 Hemos querido hacer un modelo de clasificación de células para comparar con el modelo que nos entregaba el enunciado, que es el de clasificación mediante redes neuronales.
 
@@ -8,7 +8,7 @@ Para ello, se ha revisado la documentación oficial de Scikit-Learn, además de 
 
 Sabíamos que este modelo no está definido para un uso tan complejo como este, pero queríamos comprobar si podría sacar resultados parecidos, ya que es un modelo mucho menos costoso en recursos.
 
-##2.	Implementación
+## 2.	Implementación
 
 Primeramente, hemos tenido que traducir las clases a números para poder entrenar este modelo, porque los datos que teníamos en el enunciado estaban enfocados al modelo de redes neuronales.
 
@@ -22,7 +22,7 @@ Primeramente, hemos tenido que traducir las clases a números para poder entrena
 
 •	Después, con la librería plt vamos a representar la matriz de confusión, donde podemos comprobar la precisión de nuestro modelo.
 
-##3.	Apuntes.
+## 3.	Apuntes.
 
 Este modelo es tan sencillo que no realiza el entrenamiento por épocas, sino como un total.
 
@@ -30,17 +30,17 @@ No podemos visualizar la curva de aprendizaje, como sí que hemos podido ver en 
 
 Y, sobre todo, este modelo no está diseñado para clasificación, pero queríamos comprobar si podría ser útil debido a su bajo coste.
 
-##4.	Comparación con logística.
+## 4.	Comparación con logística.
 
 
 
-##5.	Justificación adaptar regresión a clasificación
+## 5.	Justificación adaptar regresión a clasificación
 
 La regresión líneal trata dos variables, una dependiente y otra independiente, como por ejemplo puede ser la relación entre horas trabajadas y sueldo mensual.
 
 Como había 3 clases, se ha asignado un número a las clases, basándonos en que cuando una célula normal (0) se corrompe, asumimos que pasa por el estado benigno (1) al crecer, y después se vuelve maligno (2). Esto no quiere decir que en la realidad sea así, pero es la lógica que hemos empleado para utilizarlo en este caso. 
 
-##6.	Conclusión final.
+## 6.	Conclusión final.
 
 El modelo de regresión lineal es menos conveniente para resolver el problema de clasificación que el modelo de redes neuronales, por lo que nos decantaremos por el segundo.
 
