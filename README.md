@@ -30,17 +30,14 @@ No podemos visualizar la curva de aprendizaje, como sí que hemos podido ver en 
 
 Y, sobre todo, este modelo no está diseñado para clasificación, pero queríamos comprobar si podría ser útil debido a su bajo coste.
 
-## 4.	Comparación con logística.
 
-
-
-## 5.	Justificación adaptar regresión a clasificación
+## 4.	Justificación adaptar regresión a clasificación
 
 La regresión líneal trata dos variables, una dependiente y otra independiente, como por ejemplo puede ser la relación entre horas trabajadas y sueldo mensual.
 
 Como había 3 clases, se ha asignado un número a las clases, basándonos en que cuando una célula normal (0) se corrompe, asumimos que pasa por el estado benigno (1) al crecer, y después se vuelve maligno (2). Esto no quiere decir que en la realidad sea así, pero es la lógica que hemos empleado para utilizarlo en este caso. 
 
-## 6.	Conclusión final.
+## 5.	Conclusión final.
 
 El modelo de regresión lineal es menos conveniente para resolver el problema de clasificación que el modelo de redes neuronales, por lo que nos decantaremos por el segundo.
 
